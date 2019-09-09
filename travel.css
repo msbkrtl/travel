@@ -20,7 +20,6 @@ li {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     height: 670px;
 }
 
@@ -119,4 +118,87 @@ a {
 
 .text i {
     font-size: 23px;
+}
+
+.sec2 {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 2fr;
+    margin: 0 6.7% -100px 6.7%;
+    grid-template-rows: 350px;
+    column-gap: 20px;
+    margin-top: -3%;
+}
+
+
+
+.box1 {
+    display: grid;
+    align-content: flex-end;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('/imgs/featured-surfing-lessons.jpg') center center no-repeat;
+    border-radius: 1.5%;
+}
+
+.box2 {
+    display: grid;
+    align-content: flex-end;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('/imgs/summer-drinks-800x500.jpg') center center;
+    border-radius: 1.5%;
+
+
+
+}
+
+.box3 {
+    display: grid;
+    align-content: flex-end;
+    background: url('/imgs/1.jpg') center center;
+    border-radius: 1.5%;
+}
+
+.box1 a,
+.box2 a,
+.box3 a {
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    color: rgb(235, 235, 235);
+
+}
+
+.box1 h3,
+.box2 h3,
+.box3 h3 {
+    padding-left: 5%;
+    padding-bottom: 3%;
+    color: rgb(235, 235, 235);
+
+}
+
+.exhava {
+    margin: auto;
+    text-align: left;
+}
+
+.exhava h4 {
+    margin-bottom: 2%;
+    color: rgb(53, 107, 255)
+}
+
+.exhava h2 {
+    margin-bottom: 1%;
+    color: rgb(20, 20, 20);
+}
+
+.exhava p {
+    color: rgb(95, 95, 95);
+    line-height: 1.1em;
+    width: 68%;
+    font-size: 19px;
+    margin-bottom: 4.2%;
+}
+
+.exhava i {
+    font-size: 30px;
+    color: rgb(83, 83, 83);
 }
