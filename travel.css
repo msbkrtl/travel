@@ -498,13 +498,19 @@ footer div :nth-child(1) {
     .sec2 {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
         margin: 5% 10% 0px 10% !important;
-        grid-template-rows: 270px 270px !important;
+        grid-template-rows: 290px 290px !important;
         row-gap: 20px;
 
     }
 
     [class*="hongkong"] hr {
         border-width: 0.03em;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .sec2 {
+        grid-template-rows: 200px 270px 270px 270px !important;
     }
 }
 
@@ -547,7 +553,6 @@ footer div :nth-child(1) {
     .sec2 {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
         margin: 5% 10% 0px 10% !important;
-        grid-template-rows: 200px 270px 270px 270px !important;
         row-gap: 20px;
 
     }
