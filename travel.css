@@ -370,8 +370,14 @@ a {
     padding: 20px;
     border-width: 1px;
     border-style: solid;
-    border-color: rgba(145, 145,
-            145, 0.38)
+    border-color: rgba(167, 93, 93, 0.38);
+    transition: all 0.5s ease 0.0s;
+}
+
+[class*="hongkong"]:hover {
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.43);
+    transform: scale(1.03);
+
 }
 
 [class*="hongkong"] p {
