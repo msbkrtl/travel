@@ -16,7 +16,7 @@ li {
 }
 
 .beach {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/imgs/SyA058.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./imgs/SyA058.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,15 +149,15 @@ a {
 }
 
 .box1 {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('/imgs/featured-surfing-lessons.jpg') center center no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('./imgs/featured-surfing-lessons.jpg') center center no-repeat;
 }
 
 .box2 {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('/imgs/summer-drinks-800x500.jpg') center center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('./imgs/summer-drinks-800x500.jpg') center center;
 }
 
 .box3 {
-    background: url('/imgs/1.jpg') center center;
+    background: url('./imgs/1.jpg') center center;
 }
 
 [class*="box"] a {
@@ -254,42 +254,42 @@ a {
 }
 
 .foto1 {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('/imgs/featured-surfing-lessons.jpg') center center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('./imgs/featured-surfing-lessons.jpg') center center;
 
 }
 
 .foto2 {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('/imgs/Beach-vacation.jpg') center center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('./imgs/Beach-vacation.jpg') center center;
 }
 
 .foto3 {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('/imgs/featured-kayaking.jpg') center center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('./imgs/featured-kayaking.jpg') center center;
 }
 
 .foto4 {
-    background: url('/imgs/Aurora-borealis-peninsula-Snaefellsnes-Iceland-March-2013.jpg') center center;
+    background: url('./imgs/Aurora-borealis-peninsula-Snaefellsnes-Iceland-March-2013.jpg') center center;
 }
 
 .foto5 {
-    background: url('/imgs/p-6158581567-f6885d5f00-o_54_990x660.jpg') center center;
+    background: url('./imgs/p-6158581567-f6885d5f00-o_54_990x660.jpg') center center;
 }
 
 .foto6 {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('/imgs/6814402196_5cccf439a3_b.jpg') center center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('./imgs/6814402196_5cccf439a3_b.jpg') center center;
 }
 
 .foto7 {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('/imgs/View-from-suite-3-over-the-lower-deck-and-pool.jpg') center center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('./imgs/View-from-suite-3-over-the-lower-deck-and-pool.jpg') center center;
 }
 
 .foto8 {
-    background: url('/imgs/gangehi-island-resort.jpg') center center;
+    background: url('./imgs/gangehi-island-resort.jpg') center center;
 }
 
 .box3 {
     display: grid;
     align-content: flex-end;
-    background: url('/imgs/1.jpg') center center;
+    background: url('./imgs/1.jpg') center center;
     border-radius: 1.5%;
 }
 
